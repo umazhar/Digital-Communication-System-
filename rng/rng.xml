@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2022.06.09.13:04:45"
+ outputDirectory="C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/rng/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Cyclone V"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="5CSEMA5F31C6"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="6"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLOCK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLOCK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLOCK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="call" kind="conduit" start="0">
+   <property name="associatedClock" value="clock" />
+   <property name="associatedReset" value="reset" />
+   <port name="start" direction="input" role="enable" width="1" />
+  </interface>
+  <interface name="clock" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clock" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="rand_num" kind="avalon_streaming" start="1">
+   <property name="associatedClock" value="clock" />
+   <property name="associatedReset" value="reset" />
+   <property name="beatsPerCycle" value="1" />
+   <property name="dataBitsPerSymbol" value="32" />
+   <property name="emptyWithinPacket" value="false" />
+   <property name="errorDescriptor" value="" />
+   <property name="firstSymbolInHighOrderBits" value="true" />
+   <property name="highOrderSymbolAtMSB" value="false" />
+   <property name="maxChannel" value="0" />
+   <property name="packetDescription" value="" />
+   <property name="readyLatency" value="0" />
+   <property name="symbolsPerBeat" value="1" />
+   <port name="rand_num_data" direction="output" role="data" width="32" />
+   <port name="rand_num_ready" direction="input" role="ready" width="1" />
+   <port name="rand_num_valid" direction="output" role="valid" width="1" />
+  </interface>
+  <interface name="reset" kind="reset" start="0">
+   <property name="associatedClock" value="clock" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="resetn" direction="input" role="reset_n" width="1" />
+  </interface>
+ </perimeter>
+ <entity
+   path=""
+   parameterizationKey="rng:1.0:AUTO_CLOCK_CLOCK_DOMAIN=-1,AUTO_CLOCK_CLOCK_RATE=-1,AUTO_CLOCK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1654805084,AUTO_UNIQUE_ID=(altera_rand_gen:19.1:GEN_TYPE=3,IS_TESTING=false,MODEL_OPTION=2,SEED_GEN=Auto,SEED_VALUE=68997764,design_env=NATIVE,selected_device_family=Cyclone V)"
+   instancePathKey="rng"
+   kind="rng"
+   version="1.0"
+   name="rng">
+  <parameter name="AUTO_CLOCK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_CLOCK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_CLOCK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="1654805084" />
+  <parameter name="AUTO_DEVICE" value="5CSEMA5F31C6" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
+  <generatedFiles>
+   <file
+       path="C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/rng/synthesis/rng.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/rng.qsys" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="C:/intelfpga_lite/19.1/ip/altera/dsp/altera_rand_gen/altera_rand_gen_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Debug" culprit="rng">queue size: 0 starting:rng "rng"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>1</b> modules, <b>0</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Debug" culprit="rng"><![CDATA["<b>rng</b>" reuses <b>altera_rand_gen</b> "<b>submodules/rng_rand_gen_0</b>"]]></message>
+   <message level="Debug" culprit="rng">queue size: 0 starting:altera_rand_gen "submodules/rng_rand_gen_0"</message>
+   <message level="Info" culprit="rand_gen_0">C:/intelfpga_lite/19.1/quartus/../hls/bin/i++ --simulator none -o altera_rand_gen_fn {-march=Cyclone V} --fpc -I. C:/intelfpga_lite/19.1/ip/altera/dsp/altera_rand_gen/altera_rand_gen_fn.cpp</message>
+   <message level="Error" culprit="rand_gen_0"><![CDATA[Error starting the process ([C:/intelfpga_lite/19.1/quartus/../hls/bin/i++, --simulator, none, -o, altera_rand_gen_fn, -march=Cyclone V, --fpc, -I., C:/intelfpga_lite/19.1/ip/altera/dsp/altera_rand_gen/altera_rand_gen_fn.cpp]): Cannot run program "C:\intelfpga_lite\19.1\quartus\..\hls\bin\i++" (in directory "C:\Users\okoko\AppData\Local\Temp\alt9152_4644934437608713946.dir\0002_rand_gen_0_gen"): CreateProcess error=2, The system cannot find the file specified
+]]></message>
+   <message level="Error" culprit="rand_gen_0">IP geneneration failed at file discovery, please tell Altera</message>
+   <message level="Error"><![CDATA[couldn't open "C:/Users/okoko/AppData/Local/Temp/alt9152_4644934437608713946.dir/0002_rand_gen_0_gen//altera_rand_gen_fn.prj/components/altera_rand_gen_fn/altera_rand_gen_fn_internal_hw.tcl": no such file or directory
+    while executing
+"discover_files $proxy_file_set $tmp_dir"
+    (procedure "generate_all" line 16)
+    invoked from within
+"generate_all $output_name QUARTUS_SYNTH"
+    (procedure "generate_quartus_synth" line 2)
+    invoked from within
+"generate_quartus_synth rng_rand_gen_0"]]></message>
+   <message level="Info" culprit="rand_gen_0"><![CDATA["<b>rng</b>" instantiated <b>altera_rand_gen</b> "<b>rand_gen_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_rand_gen:19.1:GEN_TYPE=3,IS_TESTING=false,MODEL_OPTION=2,SEED_GEN=Auto,SEED_VALUE=68997764,design_env=NATIVE,selected_device_family=Cyclone V"
+   instancePathKey="rng:.:rand_gen_0"
+   kind="altera_rand_gen"
+   version="19.1"
+   name="rng_rand_gen_0">
+  <parameter name="SEED_VALUE" value="68997764" />
+  <parameter name="GEN_TYPE" value="3" />
+  <parameter name="MODEL_OPTION" value="2" />
+  <parameter name="IS_TESTING" value="false" />
+  <parameter name="SEED_GEN" value="Auto" />
+  <parameter name="selected_device_family" value="Cyclone V" />
+  <parameter name="design_env" value="NATIVE" />
+  <generatedFiles/>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/19.1/ip/altera/dsp/altera_rand_gen/altera_rand_gen_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="rng" as="rand_gen_0" />
+  <messages>
+   <message level="Debug" culprit="rng">queue size: 0 starting:altera_rand_gen "submodules/rng_rand_gen_0"</message>
+   <message level="Info" culprit="rand_gen_0">C:/intelfpga_lite/19.1/quartus/../hls/bin/i++ --simulator none -o altera_rand_gen_fn {-march=Cyclone V} --fpc -I. C:/intelfpga_lite/19.1/ip/altera/dsp/altera_rand_gen/altera_rand_gen_fn.cpp</message>
+   <message level="Error" culprit="rand_gen_0"><![CDATA[Error starting the process ([C:/intelfpga_lite/19.1/quartus/../hls/bin/i++, --simulator, none, -o, altera_rand_gen_fn, -march=Cyclone V, --fpc, -I., C:/intelfpga_lite/19.1/ip/altera/dsp/altera_rand_gen/altera_rand_gen_fn.cpp]): Cannot run program "C:\intelfpga_lite\19.1\quartus\..\hls\bin\i++" (in directory "C:\Users\okoko\AppData\Local\Temp\alt9152_4644934437608713946.dir\0002_rand_gen_0_gen"): CreateProcess error=2, The system cannot find the file specified
+]]></message>
+   <message level="Error" culprit="rand_gen_0">IP geneneration failed at file discovery, please tell Altera</message>
+   <message level="Error"><![CDATA[couldn't open "C:/Users/okoko/AppData/Local/Temp/alt9152_4644934437608713946.dir/0002_rand_gen_0_gen//altera_rand_gen_fn.prj/components/altera_rand_gen_fn/altera_rand_gen_fn_internal_hw.tcl": no such file or directory
+    while executing
+"discover_files $proxy_file_set $tmp_dir"
+    (procedure "generate_all" line 16)
+    invoked from within
+"generate_all $output_name QUARTUS_SYNTH"
+    (procedure "generate_quartus_synth" line 2)
+    invoked from within
+"generate_quartus_synth rng_rand_gen_0"]]></message>
+   <message level="Info" culprit="rand_gen_0"><![CDATA["<b>rng</b>" instantiated <b>altera_rand_gen</b> "<b>rand_gen_0</b>"]]></message>
+  </messages>
+ </entity>
+</deploy>

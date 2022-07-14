@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/u-maz/iCloudDrive/ELEC391/FPGA/ELEC-391-Final-Project
+vRaised_Cosine_Receive_Filter
+Z0 !s110 1655185098
+!i10b 1
+!s100 2]5mJI@J94D60@c@Bj7AX2
+ImO:IJC1FeHd`P:V8QP6cZ1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/modelsim
+Z3 w1655183659
+8C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/Raised_Cosine_Receive_Filter.v
+FC:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/Raised_Cosine_Receive_Filter.v
+Z4 L0 21
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1655185097.000000
+!s107 C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/Raised_Cosine_Receive_Filter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/Raised_Cosine_Receive_Filter.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@raised_@cosine_@receive_@filter
+vRaised_Cosine_Transmit_Filter
+R0
+!i10b 1
+!s100 YFNija=[=]7So5l[XkUdI2
+I=fJ_@mo95QcLHd[lA;0Tm2
+R1
+R2
+R3
+8C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/Raised_Cosine_Transmit_Filter.v
+FC:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/Raised_Cosine_Transmit_Filter.v
+R4
+R5
+r1
+!s85 0
+31
+Z9 !s108 1655185098.000000
+!s107 C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/Raised_Cosine_Transmit_Filter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/Raised_Cosine_Transmit_Filter.v|
+!i113 1
+R7
+R8
+n@raised_@cosine_@transmit_@filter
+vRaisedCosine
+R0
+!i10b 1
+!s100 4OBRML=cJ`;IZBef2lfB=0
+Ik3>SBh3U>e6gN3gDQ6z8>2
+R1
+R2
+R3
+8C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine.v
+FC:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine.v
+L0 40
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine.v|
+!i113 1
+R7
+R8
+n@raised@cosine
+vRaisedCosine_tb
+R0
+!i10b 1
+!s100 H;L`@X11Y1nkdMLnTBN`L3
+IFJXzO1;K`:YX2LWj`QCRe1
+R1
+R2
+w1655184937
+8C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine_tb.v
+FC:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine_tb.v
+L0 2
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine_tb.v|
+!i113 1
+R7
+R8
+n@raised@cosine_tb
+vRaisedCosine_tc
+!s110 1655185097
+!i10b 1
+!s100 PVKbgLi5@T0Q?^n2T_?TJ3
+IFTcjB161WbI9kg>1JL?;X1
+R1
+R2
+R3
+8C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine_tc.v
+FC:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine_tc.v
+L0 26
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine_tc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/u-maz/iCloudDrive/ELEC391/Demo2/ELEC-391-Final-Project/RaisedCosine_tc.v|
+!i113 1
+R7
+R8
+n@raised@cosine_tc

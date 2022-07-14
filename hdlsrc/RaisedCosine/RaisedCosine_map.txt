@@ -1,0 +1,6 @@
+Raised_Cosine_Receive_Filter/FIR_Decimation --> FIR_Decimation
+Raised_Cosine_Transmit_Filter/FIR_Interpolation --> FIR_Interpolation
+RaisedCosine/Raised Cosine Receive Filter --> Raised_Cosine_Receive_Filter
+RaisedCosine/Raised Cosine Transmit Filter --> Raised_Cosine_Transmit_Filter
+RaisedCosine_tc --> RaisedCosine_tc
+RaisedCosine --> RaisedCosine

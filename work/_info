@@ -1,0 +1,847 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter
+vAltera_UP_Audio_Bit_Counter
+Z1 !s110 1653559725
+!i10b 1
+!s100 J2Tb5SPZN>>^6S@MM9o:c1
+I90h2?zU=]j0B^mNoE^igG0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1653000464
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_Bit_Counter.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_Bit_Counter.v
+Z4 L0 49
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1653559725.000000
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_Bit_Counter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_Bit_Counter.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@altera_@u@p_@audio_@bit_@counter
+vAltera_UP_Audio_In_Deserializer
+R1
+!i10b 1
+!s100 MnK8@IQLcda;1gGBW7@Tz0
+IEgeQclWbLTM<4R@73?0VH0
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_In_Deserializer.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_In_Deserializer.v
+Z9 L0 47
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_In_Deserializer.v|
+!s90 -reportprogress|300|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_In_Deserializer.v|
+!i113 1
+R7
+R8
+n@altera_@u@p_@audio_@in_@deserializer
+vAltera_UP_Audio_Out_Serializer
+R1
+!i10b 1
+!s100 BllhdjOFFm6Rj]o@Xid882
+IJ9WH^Yk>[142FgLnc9=]P2
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_Out_Serializer.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_Out_Serializer.v
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_Out_Serializer.v|
+!s90 -reportprogress|300|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Audio_Out_Serializer.v|
+!i113 1
+R7
+R8
+n@altera_@u@p_@audio_@out_@serializer
+vAltera_UP_Clock_Edge
+R1
+!i10b 1
+!s100 XaX6^HY04T3X?D32?HdN>2
+IlT1bBYi^@h;^=HI<7Ag5j2
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Clock_Edge.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Clock_Edge.v
+Z10 L0 48
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Clock_Edge.v|
+!s90 -reportprogress|300|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Clock_Edge.v|
+!i113 1
+R7
+R8
+n@altera_@u@p_@clock_@edge
+vAltera_UP_I2C
+R1
+!i10b 1
+!s100 JU94J3RToJ0DChmlIi^B43
+INegh;E0o3NJ?>e;G4nc4X2
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C.v|
+!s90 -reportprogress|300|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C.v|
+!i113 1
+R7
+R8
+n@altera_@u@p_@i2@c
+vAltera_UP_I2C_AV_Auto_Initialize
+Z11 !s110 1653559726
+!i10b 1
+!s100 TbIA;9787GSRoV9be_N2^2
+Id]mBOaC:@E;6[Ol[c=3fM3
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_AV_Auto_Initialize.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_AV_Auto_Initialize.v
+R10
+R5
+r1
+!s85 0
+31
+Z12 !s108 1653559726.000000
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_AV_Auto_Initialize.v|
+!s90 -reportprogress|30|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_AV_Auto_Initialize.v|
+!i113 1
+R7
+R8
+n@altera_@u@p_@i2@c_@a@v_@auto_@initialize
+vAltera_UP_I2C_DC_Auto_Initialize
+R11
+!i10b 1
+!s100 WaG<YW8VGFlT:ijQ;9gO?3
+I?=@Q6`?eO3enHO@a<U:_F1
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_DC_Auto_Initialize.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_DC_Auto_Initialize.v
+R10
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_DC_Auto_Initialize.v|
+!s90 -reportprogress|30|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_DC_Auto_Initialize.v|
+!i113 1
+R7
+R8
+n@altera_@u@p_@i2@c_@d@c_@auto_@initialize
+vAltera_UP_I2C_LCM_Auto_Initialize
+R11
+!i10b 1
+!s100 Jn038;8oQ^Ukg7ZXlQdT33
+I1@5d^:2lo]@lAfF`Pb@Z[2
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_LCM_Auto_Initialize.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_LCM_Auto_Initialize.v
+R10
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_LCM_Auto_Initialize.v|
+!s90 -reportprogress|30|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_I2C_LCM_Auto_Initialize.v|
+!i113 1
+R7
+R8
+n@altera_@u@p_@i2@c_@l@c@m_@auto_@initialize
+vAltera_UP_Slow_Clock_Generator
+R11
+!i10b 1
+!s100 U@B3NehPQRXcdeI<e=@I53
+I9dijARN=`oUR4lPUK_e=42
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Slow_Clock_Generator.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Slow_Clock_Generator.v
+L0 53
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Slow_Clock_Generator.v|
+!s90 -reportprogress|30|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_Slow_Clock_Generator.v|
+!i113 1
+R7
+R8
+n@altera_@u@p_@slow_@clock_@generator
+vAltera_UP_SYNC_FIFO
+R11
+!i10b 1
+!s100 jDg=^5VOBFbFho_;gZbiA1
+I[cKTj;Y=_Y7Y`?:@QkXWE0
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_SYNC_FIFO.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_SYNC_FIFO.v
+R9
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_SYNC_FIFO.v|
+!s90 -reportprogress|30|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/Altera_UP_SYNC_FIFO.v|
+!i113 1
+R7
+R8
+n@altera_@u@p_@s@y@n@c_@f@i@f@o
+vaudio_and_video_config
+R11
+!i10b 1
+!s100 z3>_mDg4hMjn4VjXHn00U3
+I[JfTMDIN5PBRN2^37?`VI2
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/audio_and_video_config.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/audio_and_video_config.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/audio_and_video_config.v|
+!s90 -reportprogress|30|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/audio_and_video_config.v|
+!i113 1
+R7
+R8
+vaudio_codec
+Z13 !s110 1653559727
+!i10b 1
+!s100 43h1ad@K@aG98IRVc4i1M1
+Id>Qi4fD5:fUi1iM31L7^M2
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/audio_codec.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/audio_codec.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/audio_codec.v|
+!s90 -reportprogress|30|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/audio_codec.v|
+!i113 1
+R7
+R8
+vbm_ce_rom
+!s110 1655789213
+!i10b 1
+!s100 Y`2:5H:?kz2>c;jbC]PSF0
+IX9ceLI5:BFCBadT8WHEQQ1
+R2
+Z14 dc:/Users/u-maz/OneDrive/Desktop/ELEC-391-Final-Project
+Z15 w1655610404
+8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_ce_rom.v
+Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_ce_rom.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1655789213.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_ce_rom.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_ce_rom.v|
+!i113 1
+Z16 o-nologo -work work
+R8
+vbm_cf_rom
+!s110 1655789233
+!i10b 1
+!s100 SMbCllfb2W[74dXS6oROi3
+I6jgW;o]]FS_CWlULTZ>T:1
+R2
+R14
+R15
+8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_cf_rom.v
+Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_cf_rom.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1655789233.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_cf_rom.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_cf_rom.v|
+!i113 1
+R16
+R8
+vbm_cg_rom
+!s110 1655789237
+!i10b 1
+!s100 W?g9ADVghXiaWWE?9IDRh0
+IcF0ljaMToI<?ZTCCR4BJ:0
+R2
+R14
+R15
+8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_cg_rom.v
+Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_cg_rom.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1655789237.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_cg_rom.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\bm_cg_rom.v|
+!i113 1
+R16
+R8
+vboxmuller
+Z17 !s110 1655792097
+!i10b 1
+!s100 ZJidV?X4jGa[G6[^=WZoG1
+I;GfDo[oha7<R2hU<C`ka>0
+R2
+R14
+Z18 w1655792096
+Z19 8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\boxmuller.v
+Z20 Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\boxmuller.v
+L0 59
+R5
+r1
+!s85 0
+31
+Z21 !s108 1655792096.000000
+Z22 !s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\boxmuller.v|
+Z23 !s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\boxmuller.v|
+!i113 1
+R16
+R8
+vboxmuller_tb
+!s110 1655789238
+!i10b 1
+!s100 l6FF@4[:UINFOKf^2SgkW0
+IIe`0z51U_RImz_RfEfk@D2
+R2
+R14
+R15
+8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\boxmuller_tb.v
+Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\boxmuller_tb.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1655789238.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\boxmuller_tb.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\awgn_boxmuller-master\verilog\boxmuller_tb.v|
+!i113 1
+R16
+R8
+vBPSK_Demodulator
+!s110 1655687200
+!i10b 1
+!s100 n0]ECnZ_VJCa?UF=NVg[i3
+Imh4agoc;FXEQCj0W;aP5_1
+R2
+R14
+R15
+8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Demodulator.v
+Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Demodulator.v
+Z24 L0 21
+R5
+r1
+!s85 0
+31
+!s108 1655687200.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Demodulator.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Demodulator.v|
+!i113 1
+R16
+R8
+n@b@p@s@k_@demodulator
+vBPSK_Demodulator_Baseband
+!s110 1655778167
+!i10b 1
+!s100 >7e0z43I=Y4Ci@;Z[Ad@B0
+I]f00[eaJ4Le^dTcP19=Ij3
+R2
+R14
+R15
+8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Demodulator_Baseband.v
+Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Demodulator_Baseband.v
+R24
+R5
+r1
+!s85 0
+31
+!s108 1655778167.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Demodulator_Baseband.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Demodulator_Baseband.v|
+!i113 1
+R16
+R8
+n@b@p@s@k_@demodulator_@baseband
+vBPSK_Modulator
+!s110 1655687088
+!i10b 1
+!s100 eShB:0fg5cUVCk47]Ol]50
+IQO;Hkm[KnlZHjPjGFOAYM2
+R2
+R14
+R15
+8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Modulator.v
+Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Modulator.v
+R24
+R5
+r1
+!s85 0
+31
+!s108 1655687087.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Modulator.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\BPSK_Modulator.v|
+!i113 1
+R16
+R8
+n@b@p@s@k_@modulator
+vchannel
+Z25 !s110 1655875097
+!i10b 1
+!s100 i5@BLai;78Sl[gVM[nf;a0
+IfH8fA@@_UXLV38:eb_32N3
+R2
+R14
+Z26 w1655875097
+Z27 8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\channel.v
+Z28 Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\channel.v
+L0 6
+R5
+r1
+!s85 0
+31
+Z29 !s108 1655875097.000000
+Z30 !s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\channel.v|
+Z31 !s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\channel.v|
+!i113 1
+R16
+R8
+vchannel_tb
+!s110 1655875120
+!i10b 1
+!s100 <WkZ]MA_R^^hU[K]O<k=Q3
+IVSCjJ7iQMQGhRiAXAnBVM3
+R2
+R14
+w1655875120
+8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\channel_tb.v
+Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\channel_tb.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1655875120.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\channel_tb.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\channel_tb.v|
+!i113 1
+R16
+R8
+vclock_generator
+R13
+!i10b 1
+!s100 39OA<gKn`aijkLgT:8]8i2
+I9kn56Q:Uf;2Ui8ZLQ3I910
+R2
+R0
+R3
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/clock_generator.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/clock_generator.v
+R10
+R5
+r1
+!s85 0
+31
+Z32 !s108 1653559727.000000
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/clock_generator.v|
+!s90 -reportprogress|30|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/clock_generator.v|
+!i113 1
+R7
+R8
+vfifo391
+R13
+!i10b 1
+!s100 7JMY7Ieh@fKJTPWDf8g`M3
+INNgj2RdA2NXIW[n3zgUhO2
+R2
+R0
+w1653551581
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/fifo391_bb.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/fifo391_bb.v
+L0 35
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/fifo391_bb.v|
+!s90 -reportprogress|30|-work|work|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/fifo391_bb.v|
+!i113 1
+R7
+R8
+vfilter
+Z33 !s110 1655875053
+!i10b 1
+!s100 Zg@h`IS5^M_[n4gI283lC0
+IZ;[zOZ]=]0lBzc5:0o4Q63
+R2
+R14
+Z34 w1655875053
+Z35 8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\part1.v
+Z36 Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\part1.v
+L0 324
+R5
+r1
+!s85 0
+31
+Z37 !s108 1655875053.000000
+Z38 !s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\part1.v|
+Z39 !s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\part1.v|
+!i113 1
+R16
+R8
+vfilter_tb
+!s110 1655777116
+!i10b 1
+!s100 T>PD^G5CmY==79@o6Ez4L3
+I?T9T]GF:80K2zR4JDfe]F3
+R2
+R14
+R15
+8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\filter_tb.v
+Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\filter_tb.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1655777116.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\filter_tb.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\filter_tb.v|
+!i113 1
+R16
+R8
+vfir_filter
+Z40 !s110 1653590249
+!i10b 1
+!s100 oZ5FLJ;6E@:na<X<Pzi;N0
+I2LlVl?bWkjQkkhQmkU:;`3
+R2
+R0
+Z41 w1653590241
+Z42 8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/part1.v
+Z43 FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/part1.v
+L0 164
+R5
+r1
+!s85 0
+31
+Z44 !s108 1653590249.000000
+Z45 !s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/part1.v|
+Z46 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/part1.v|
+!i113 1
+R7
+R8
+vModulation_DataPacker
+R33
+!i10b 1
+!s100 _U;oE[Z]9_o2UZKTQBPLB1
+IYQfHm>3ZLMa:9ZfUF3S<_1
+R2
+R14
+R34
+R35
+R36
+L0 243
+R5
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R16
+R8
+n@modulation_@data@packer
+vModulation_DataShifter
+R33
+!i10b 1
+!s100 j9<Zn?IV;d]m792H4Y]mO0
+IDj`oILV8VR?Y0c]QKb9z;0
+R2
+R14
+R34
+R35
+R36
+L0 174
+R5
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R16
+R8
+n@modulation_@data@shifter
+vnoise_generator
+R33
+!i10b 1
+!s100 icZm`1F5>AX>fH]DMJ3;?2
+IoMdTMUARmO3K>f_ef<P0f2
+R2
+R14
+R34
+R35
+R36
+L0 304
+R5
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R16
+R8
+vnoise_generator_tb
+R40
+!i10b 1
+!s100 C5kKR[lRAAP[=MC^m>1Zz0
+I5TAV3[nYhd3jeIUj7TTh`1
+R2
+R0
+w1653540128
+8C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/noise_tb.v
+FC:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/noise_tb.v
+L0 1
+R5
+r1
+!s85 0
+31
+R44
+!s107 C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/noise_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/okoko/OneDrive - The University Of British Columbia/ELEC 391/FPGA_audio_starter/noise_tb.v|
+!i113 1
+R7
+R8
+vpart1
+!s110 1655610634
+!i10b 1
+!s100 _b]dnbJhD8oS5<IZURZF52
+I>aPZJB:WAO8YSCACMm0Jj0
+R2
+R14
+R15
+8c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\part2.v
+Fc:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\part2.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1655610634.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\part2.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\ELEC-391-Final-Project\part2.v|
+!i113 1
+R16
+R8
+vRand_Int
+!s110 1655619992
+!i10b 1
+!s100 X]aRGzET=[Dc2J_:j1BP43
+I=Le48BJ]74B8^IPkYE8jI0
+R2
+R14
+w1655617698
+8c:\Users\u-maz\OneDrive\Desktop\Rand_Int.v
+Fc:\Users\u-maz\OneDrive\Desktop\Rand_Int.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1655619992.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\Rand_Int.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\Rand_Int.v|
+!i113 1
+R16
+R8
+n@rand_@int
+vRand_Int_tb
+!s110 1655627841
+!i10b 1
+!s100 _X<XTcGDO4dN1ac]alc]W3
+I;eUi^6>e30^kn<o0I_iNc1
+R2
+R14
+w1655627841
+8c:\Users\u-maz\OneDrive\Desktop\Rand_Int_tb.v
+Fc:\Users\u-maz\OneDrive\Desktop\Rand_Int_tb.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1655627841.000000
+!s107 c:\Users\u-maz\OneDrive\Desktop\Rand_Int_tb.v|
+!s90 -nologo|-work|work|c:\Users\u-maz\OneDrive\Desktop\Rand_Int_tb.v|
+!i113 1
+R16
+R8
+n@rand_@int_tb
+vrandom_int_gen
+R25
+!i10b 1
+!s100 98OSF;^<]hL;J_XXYn1Y90
+I:a^2`?^gLGe_P9Nh[SGdL3
+R2
+R14
+R26
+R27
+R28
+L0 79
+R5
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 1
+R16
+R8
+vrandom_int_gen_tb
+R25
+!i10b 1
+!s100 A0`4FTGB73[@aZNQI_e4F1
+I@]P8IM]HaP;o`on[DVRz81
+R2
+R14
+R26
+R27
+R28
+L0 94
+R5
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 1
+R16
+R8
+vsigned_round
+R17
+!i10b 1
+!s100 `67^=K@zo]enAzc[kbmoY0
+I6UBzlfRh4ho<b50oOB1B<1
+R2
+R14
+R18
+R19
+R20
+L0 726
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R16
+R8
+vunsigned_sat
+R17
+!i10b 1
+!s100 VimiLCPQhi]]KJ;S3a_UP3
+IT25eB734^AZ0:FDSG6MdM3
+R2
+R14
+R18
+R19
+R20
+L0 746
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R16
+R8
+vvDFFE
+R40
+!i10b 1
+!s100 EF@caEE^K?mCZhLQBO:C[3
+ILM26o_i0?B[V9j_:N:PY]2
+R2
+R0
+R41
+R42
+R43
+L0 204
+R5
+r1
+!s85 0
+31
+R44
+R45
+R46
+!i113 1
+R7
+R8
+nv@d@f@f@e

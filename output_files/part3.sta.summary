@@ -1,0 +1,133 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : -7.934
+TNS   : -344.247
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -7.808
+TNS   : -926.675
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : 3.866
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -698.435
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : 0.261
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'my_clock_gen|DE_Clock_Generator_Audio|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.322
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK2_50'
+Slack : 18.418
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : -8.238
+TNS   : -357.267
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -7.645
+TNS   : -875.944
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : 4.093
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -714.580
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : 0.223
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'my_clock_gen|DE_Clock_Generator_Audio|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.322
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK2_50'
+Slack : 18.444
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.753
+TNS   : -438.413
+
+Type  : Fast 1100mV 85C Model Setup 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : -4.297
+TNS   : -182.474
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : 2.315
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -564.476
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'my_clock_gen|DE_Clock_Generator_Audio|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.322
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK2_50'
+Slack : 18.161
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : -4.199
+TNS   : -179.042
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.093
+TNS   : -351.447
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : 2.403
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -564.311
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|left_channel_fifo_write_space[0]'
+Slack : 0.326
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'my_clock_gen|DE_Clock_Generator_Audio|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.322
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK2_50'
+Slack : 18.150
+TNS   : 0.000
+
+------------------------------------------------------------

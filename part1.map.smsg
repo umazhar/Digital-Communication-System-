@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at part1.v(214): always construct contains both blocking and non-blocking assignments File: C:/Users/u-maz/OneDrive/Desktop/ELEC-391-Final-Project/part1.v Line: 214
+Warning (10268): Verilog HDL information at part1.v(283): always construct contains both blocking and non-blocking assignments File: C:/Users/u-maz/OneDrive/Desktop/ELEC-391-Final-Project/part1.v Line: 283
